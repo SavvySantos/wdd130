@@ -2,21 +2,6 @@ main{
     max-width: 840px;
 }
 
-aside{
-    width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgb(000/0.2);
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
-    text-align: center;
-}
-
-aside img{
-    width: 200px;
-    height: auto;
-}
-
 nav{
     background-color: darkblue;
     padding: 10px;
@@ -42,6 +27,21 @@ main img{
 
 p{
     padding: 0;
+}
+
+aside{
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgb(000/0.2);/* why use rgba instead of hex here */
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+}
+
+aside img{
+    width: 200px;
+    height: auto;
 }
 
 footer{
