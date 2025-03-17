@@ -22,7 +22,7 @@ main img{
     height: auto;
     border: 1px solid black;
     padding: 2px;
-    box-shadow: 0030px gray;
+    box-shadow: 30px gray;
 }
 
 p{
@@ -32,7 +32,7 @@ p{
 aside{
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgb(000/0.2);/* why use rgba instead of hex here */
+    border: 1px solid rgb(black);/* why use rgba instead of hex here */
     padding: 1rem;
     background-color: #eee;
     color: #333;
