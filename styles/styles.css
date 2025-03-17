@@ -34,7 +34,7 @@ aside{
     margin: 1rem;
     border: 1px solid rgb(black);/* why use rgba instead of hex here */
     padding: 1rem;
-    background-color: #eee;
+    background-color: white;
     color: #333;
     text-align: center;
 }
