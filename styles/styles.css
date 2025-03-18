@@ -32,7 +32,7 @@ p{
 aside{
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgb(black);/* why use rgba instead of hex here */
+    border: 1px solid black;/* why use rgba instead of hex here */
     padding: 1rem;
     background-color: lightblue;
     color: gray;
