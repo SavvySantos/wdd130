@@ -13,7 +13,6 @@
 
 main{
     max-width: 840px;
-    padding: ;
 }
 
 nav{
@@ -24,7 +23,7 @@ nav{
 nav a{
     color: var(--color);
     display: block;
-    padding: 20px;
+    padding: 10px;
 }
 
 h1{
