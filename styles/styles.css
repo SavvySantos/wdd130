@@ -1,28 +1,35 @@
+:root{
+    --main-color: darkblue;
+    --border-color: black;
+    --color: white;
+    --shadow-color: gray;
+}
+
 main{
     max-width: 840px;
 }
 
 nav{
-    background-color: darkblue;
+    background-color: var(--main-color);
     padding: 10px;
 }
 
 nav a{
-    color: white;
+    color: var(--color);
     display: block;
     padding: 20px;
 }
 
 h1{
-    color: darkblue;
+    color: var(--main-color);
 }
 
 main img{
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: 1px solid var(--border-color);
     padding: 2px;
-    box-shadow: 10px 10px 10px 10px gray;
+    box-shadow: 10px 10px 10px 10px var(--shadow-color);
 }
 
 p{
@@ -32,10 +39,10 @@ p{
 aside{
     width: 20rem;
     margin: 1rem;
-    border: 1px solid black;/* why use rgba instead of hex here */
+    border: 1px solid var(--border-color);/* why use rgba instead of hex here */
     padding: 1rem;
     background-color: lightblue;
-    color: gray;
+    color: var(--shadow-color);
     text-align: center;
 }
 
@@ -46,6 +53,6 @@ aside img{
 
 footer{
     margin-top: 15px;
-    border-top: #000;
+    border-top: var(--border-color);
     text-align: center;
 }
