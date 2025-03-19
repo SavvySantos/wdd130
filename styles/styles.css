@@ -55,6 +55,13 @@ aside{
     background-color: var(--background-color);
     color: var(--shadow-color);
     text-align: center;
+    position: relative;
+}
+
+aside h2{
+    position: absolute;
+    top: 20px;
+    left: 125px;
 }
 
 aside img{
