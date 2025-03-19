@@ -1,12 +1,19 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
 :root{
     --main-color: darkblue;
     --border-color: black;
     --color: white;
     --shadow-color: gray;
+    --background-color: lightblue;
 }
 
 main{
     max-width: 840px;
+    padding: ;
 }
 
 nav{
@@ -30,10 +37,14 @@ main img{
     border: 1px solid var(--border-color);
     padding: 2px;
     box-shadow: 10px 10px 10px 10px var(--shadow-color);
+    float: right;
 }
 
 p{
-    padding: 0;
+    padding: 1rem;
+}
+p{
+    padding: 1rem;
 }
 
 aside{
@@ -41,7 +52,7 @@ aside{
     margin: 1rem;
     border: 1px solid var(--border-color);/* why use rgba instead of hex here */
     padding: 1rem;
-    background-color: lightblue;
+    background-color: var(--background-color);
     color: var(--shadow-color);
     text-align: center;
 }
@@ -55,4 +66,12 @@ footer{
     margin-top: 15px;
     border-top: var(--border-color);
     text-align: center;
+}
+
+/*Class Selectors*/
+.box{
+    margin: 1rem;
+    border: 1px solid var(--border-color);
+    padding: 1rem;
+    background-color: var(--background-color);
 }
