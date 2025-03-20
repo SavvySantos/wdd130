@@ -1,10 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    max-width: 840px;
-    padding: .05px;
- }
+    box-sizing: border-box; 
+}
 
 :root {
     --primary-color: #2FEBD2;
@@ -19,13 +17,9 @@
     --text-font-size: 1rem;
 }
 
-nav a{
-    padding: 10px;
-}
-
 h1{
     position: absolute;
-    color: white;
+    color: var(--primary-color);
     padding: 10px;
     display: block;
     font-weight: bold;
@@ -34,10 +28,16 @@ h1{
     text-align: center;
 }
 
+/*article{
+    position: absolute;
+}*/
+
+ 
 p{
-    padding: 1rem;
+    color: black;
+    padding: 0;
     font-size: var(--text-font-size);
-    font-family: "Dosis", sans-serif;
+    font-family: var(--text-font);
 }
 
 h2{
@@ -60,47 +60,29 @@ p{
 
 .hero {
     position: relative;
-  }
+}
   
-  div img{
+div img{
     width: 100%;
     height: auto;
-  }
-
-  div article img{
-    position: absolute;
-    width: 150px;
-    height: auto;
-  }
-
-  div h1{
-        position: absolute;
-        top: 180px;
-        left: 45px;
-    }
-  
-  article img{
-    position: absolute;
-    top: px;
-    right: px;
-  }
-
-  div article{
-    position: absolute;
-    width: 20rem;
-    margin: 1rem;
-    padding: 1rem;
-    text-align: center;
-    position: relative;
 }
 
- /*.hero h1,
-  .hero article {
+article img{
+    width: 150px;
+    height: auto;
+    float: right;
+    margin-left: 20px;
+}
+
+div h1{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); /* Center the elements */
- /* }*/
+    top: 180px;
+    left: 45px;
+}
+  
+article img{
+    position: absolute;
+}
 
 main{
     max-width: 840px;
@@ -109,16 +91,10 @@ main{
 
 /* correct*/
 
-/*
 .hero img{
     display: block;
     width: 100%;
     height: auto;
-}
-
-
-article{
-    position: absolute;
 }
 
 /* correct*/
@@ -126,11 +102,15 @@ article img{
     float: right;
 }
 
+nav a{
+    padding: 10px;
+}
+
 /* correct*/
 
 /* correct*/
 /* this next one was to change the sizes of the social  media icons */
-nav a img{
+/*nav a img{
     width: 25px;
     height: auto;
 }
