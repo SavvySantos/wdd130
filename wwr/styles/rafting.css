@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+ }
+
+:root {
+    --primary-color: #2FEBD2;
+    --secondary-color: #CCBD5A;
+    --accent1-color: #E68B4E;
+    --accent2-color: #94D1BE;
+    --font-color: black;
+    --heading-font: "Boldonse";
+    --text-font: "Dosis";
+    --heading-font-size: 2rem;
+    --text-font-size: 1.2rem;
+}
+
+main{
+    max-width: 840px;
+    padding: 10px;
+}
+
+p{
+    padding: 1rem;
+}
+
+p{
+    padding: 1rem;
+}
+
+h1{
+    width: 20rem;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    text-align: center;
+    position: relative;
+    font: var(--font-color);
+    background-color: var(--primary-color);
+}
