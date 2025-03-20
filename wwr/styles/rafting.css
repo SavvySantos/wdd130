@@ -1,7 +1,9 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box; 
+    box-sizing: border-box;
+    max-width: 840px;
+    padding: .05px;
  }
 
 :root {
@@ -12,30 +14,128 @@
     --font-color: black;
     --heading-font: "Boldonse";
     --text-font: "Dosis";
-    --heading-font-size: 2rem;
-    --text-font-size: 1.2rem;
+    --name-font-size: 5rem;
+    --sub-font-size: 2rem;
+    --text-font-size: 1rem;
 }
+
+nav a{
+    padding: 10px;
+}
+
+h1{
+    position: absolute;
+    color: white;
+    padding: 10px;
+    display: block;
+    font-weight: bold;
+    font-family: var(--heading-font);
+    font-size: var(--name-font-size);
+    text-align: center;
+}
+
+p{
+    padding: 1rem;
+    font-size: var(--text-font-size);
+    font-family: "Dosis", sans-serif;
+}
+
+h2{
+    color: var(--accent1-color);
+    font-weight: bold;
+    font-family: var(--heading-font);
+    font-size: var(--sub-font-size);
+}
+
+/* correct*/
+p{
+    padding: 1rem;
+    font-size: var(--text-font-size);
+    font-family: "Dosis", sans-serif;
+}
+
+.sociallinks a{
+    text-decoration: none; /* this is so that the social media icons don't have a line under them*/
+}
+
+.hero {
+    position: relative;
+  }
+  
+  div img{
+    width: 100%;
+    height: auto;
+  }
+
+  div article img{
+    position: absolute;
+    width: 150px;
+    height: auto;
+  }
+
+  div h1{
+        position: absolute;
+        top: 180px;
+        left: 45px;
+    }
+  
+  article img{
+    position: absolute;
+    top: px;
+    right: px;
+  }
+
+  div article{
+    position: absolute;
+    width: 20rem;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+}
+
+ /*.hero h1,
+  .hero article {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the elements */
+ /* }*/
 
 main{
     max-width: 840px;
     padding: 10px;
 }
 
-p{
-    padding: 1rem;
+/* correct*/
+
+/*
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
-p{
-    padding: 1rem;
+
+article{
+    position: absolute;
 }
 
-h1{
-    width: 20rem;
-    margin: 1rem;
-    padding: 1rem;
-    background-color: var(--primary-color);
-    text-align: center;
-    position: relative;
-    font: var(--font-color);
-    background-color: var(--primary-color);
+/* correct*/
+article img{
+    float: right;
 }
+
+/* correct*/
+
+/* correct*/
+/* this next one was to change the sizes of the social  media icons */
+nav a img{
+    width: 25px;
+    height: auto;
+}
+
+/* correct*/
+
+
+
