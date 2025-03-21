@@ -63,7 +63,7 @@ div img{
     height: auto;
 }
 
-article{
+article h1{
     position: absolute;
     margin: 1rem;
     text-align: center;
