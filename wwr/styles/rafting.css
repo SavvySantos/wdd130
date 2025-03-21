@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 :root {
@@ -27,11 +27,6 @@ h1{
     font-size: var(--name-font-size);
     text-align: center;
 }
-
-/*article{
-    position: absolute;
-}*/
-
  
 p{
     color: black;
@@ -52,6 +47,7 @@ p{
     padding: 1rem;
     font-size: var(--text-font-size);
     font-family: "Dosis", sans-serif;
+    max-width: 800px;
 }
 
 .sociallinks a{
@@ -67,11 +63,29 @@ div img{
     height: auto;
 }
 
+article{
+    position: absolute;
+}
+
 article img{
+    position: relative;
+    display: block;
+    border: 2px solid black;
     width: 150px;
     height: auto;
     float: right;
-    margin-left: 20px;
+    bottom: 350px;
+    right: 1px;
+}
+
+article p {
+    position: relative;
+    padding: 1rem;
+    color: white;
+    bottom: 350px;
+    right: 1px;
+    box-shadow: inset 0 0 0 1000px rgba(52, 3, 226, 0.2);
+
 }
 
 div h1{
@@ -80,8 +94,10 @@ div h1{
     left: 45px;
 }
   
-article img{
+.teamwork img{
     position: absolute;
+    top: 180px;
+    left: 45px;
 }
 
 main{
@@ -106,16 +122,12 @@ nav a{
     padding: 10px;
 }
 
-/* correct*/
-
-/* correct*/
 /* this next one was to change the sizes of the social  media icons */
-/*nav a img{
+nav a img{
     width: 25px;
     height: auto;
 }
 
-/* correct*/
 
 
 
