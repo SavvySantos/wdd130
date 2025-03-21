@@ -30,7 +30,7 @@ h1{
  
 p{
     color: black;
-    padding: 0;
+    padding: 1rem;
     font-size: var(--text-font-size);
     font-family: var(--text-font);
 }
@@ -65,6 +65,8 @@ div img{
 
 article{
     position: absolute;
+    margin: 1rem;
+    text-align: center;
 }
 
 article img{
@@ -76,6 +78,7 @@ article img{
     float: right;
     bottom: 350px;
     right: 1px;
+    padding: 2px;
 }
 
 article p {
@@ -84,7 +87,7 @@ article p {
     color: white;
     bottom: 350px;
     right: 1px;
-    box-shadow: inset 0 0 0 1000px rgba(52, 3, 226, 0.2);
+    box-shadow: inset 10px 10px 10px 10px rgba(52, 3, 226, 0.2);
 
 }
 
