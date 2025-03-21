@@ -67,28 +67,29 @@ article{
     position: absolute;
     margin: 1rem;
     text-align: center;
+    display: block;
 }
 
 article img{
     position: relative;
     display: block;
     border: 2px solid black;
-    width: 150px;
+    width: 125px;
     height: auto;
     float: right;
-    bottom: 350px;
+    bottom: 295px;
     right: 1px;
     padding: 2px;
+    z-index: 2;
 }
 
 article p {
     position: relative;
     padding: 1rem;
     color: white;
-    bottom: 350px;
-    right: 1px;
-    box-shadow: inset 10px 10px 10px 10px rgba(52, 3, 226, 0.2);
-
+    bottom: 295px;
+    text-align: left;
+    background: rgba(4, 145, 170, 0.5)
 }
 
 div h1{
@@ -99,6 +100,8 @@ div h1{
   
 .teamwork img{
     position: absolute;
+    width: 200px;
+    height: auto;
     top: 180px;
     left: 45px;
 }
@@ -112,6 +115,8 @@ main{
 
 .hero img{
     display: block;
+    width: 200px;
+    height: auto;
     width: 100%;
     height: auto;
 }
@@ -131,6 +136,8 @@ nav a img{
     height: auto;
 }
 
-
-
-
+.box{
+    margin: 1rem;
+    border: 1px solid black;
+    padding: 1rem;
+}
