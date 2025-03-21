@@ -17,7 +17,7 @@
     --text-font-size: 1rem;
 }
 
-img {
+section img {
     width: 300px;
     height: auto;
 }
@@ -79,10 +79,10 @@ article img{
     position: relative;
     display: block;
     border: 2px solid black;
-    width: 125px;
+    width: 150px;
     height: auto;
     float: right;
-    bottom: 295px;
+    bottom: 285px;
     right: 1px;
     padding: 2px;
     z-index: 2;
@@ -93,8 +93,9 @@ article p {
     padding: 1rem;
     color: white;
     bottom: 295px;
-    text-align: left;
-    background: rgba(4, 145, 170, 0.5)
+    right: 1px;
+    background: rgba(4, 145, 170, 0.4)
+
 }
 
 div h1{
@@ -105,8 +106,6 @@ div h1{
   
 .teamwork img{
     position: absolute;
-    width: 200px;
-    height: auto;
     top: 180px;
     left: 45px;
 }
@@ -120,8 +119,6 @@ main{
 
 .hero img{
     display: block;
-    width: 200px;
-    height: auto;
     width: 100%;
     height: auto;
 }
@@ -141,8 +138,6 @@ nav a img{
     height: auto;
 }
 
-.box{
-    margin: 1rem;
-    border: 1px solid black;
-    padding: 1rem;
-}
+
+
+
