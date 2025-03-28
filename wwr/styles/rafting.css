@@ -49,6 +49,7 @@ div {
 	grid-template-columns: 100%;
 	align-items: center;
 	max-width: 1000px;
+    border: 2px solid black;
 }
 
 /* teamwork image placement*/
@@ -180,6 +181,7 @@ h2{
 /*top image design*/
  .hero{
     position: relative;
+    border: 2px solid black;
 }
 
 /* top image design*/
