@@ -16,22 +16,16 @@
     --sub-font-size: 2rem;
     --text-font-size: 1rem;
 }
- 
+ /* positioning for the History section*/
 main{
     grid-column: 2/3;
     align-items: center;
-    display: grid;
-    align-items: center;
-    max-width: 840px;
+    max-width: 800px;
     margin: 0 auto;
-    border-top: var(--border-color);
     text-align: left;
 }
 
-#main{
-    display: flex;
-}
-
+/* White Water rafting title placement*/
 h1{
     margin: 0 auto;
     display: grid;
@@ -47,6 +41,7 @@ h1{
     text-align: center;
 }
 
+/* White water Rafting layout design*/
 div {
 	margin: 1rem auto;
 	display: grid;
@@ -54,9 +49,9 @@ div {
 	grid-template-columns: 100%;
 	align-items: center;
 	max-width: 1000px;
-    border: 2px solid black;
 }
 
+/* teamwork image placement*/
 div img{
     width: 150px;
     height: auto;
@@ -64,6 +59,7 @@ div img{
     float: right;
 }
 
+/* History heading design*/
 h2{
     margin: 0 auto;
     display: grid;
@@ -77,8 +73,10 @@ h2{
     font-family: var(--sub-font-size);
     font-size: xx-large;
     text-align: center;
+    ;
 }
 
+/* White Water Rafting description text design*/
 p{
     position: relative;
     padding: 1rem;
@@ -87,7 +85,7 @@ p{
     max-width: 800px;
     max-height: auto;
 }
-
+/* Adventure awaits layout placement*/
 h3{
     margin: 0 auto;
     display: grid;
@@ -102,7 +100,12 @@ h3{
     font-size: xx-large;
     text-align: center;
 }
- 
+
+h3 img{
+    display: flex;
+    flex-direction: row;
+}
+/*Navigation layout design*/ 
 nav{
     background-color: var(--primary-color);
     padding: 1rem;
@@ -111,6 +114,7 @@ nav{
     align-items: center;
 }
  
+/* navigation bar color design*/
  nav a{
      color: var(--color);
      display: block;
@@ -119,49 +123,66 @@ nav{
      font-size: 1.2rem;
      font-weight: 700;
  }
- 
- .first section{
-    position: relative;
-    padding: 1rem;
-    font-size: var(--text-font-size);
-    font-family: "Dosis", sans-serif;
-    max-width: 800px;
-    max-height: auto;
-}
 
-.second section{
+/*.second section{
     position: relative;
     padding: 1px;
 }
 
-section{
-    position: relative;
-    display: flex;
-    display: block;
-    border: solid black;
-    content: "";
-}
-
-.fix {
+/*.fix {
     content: "";
     clear: both;
-}
+}*/
 
-section p{
-    display: block;
+.container{
+    width: 100%;
     display: flex;
-    width: 20rem;
-    margin: 1rem;
-    padding: 1rem;
-    position: relative;
-    grid-column: 1/2;
-    grid-row: 1/2;
+    flex-direction: column;
+    align-items: center;
+    border: solid black;
 }
 
+h2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    align-self: center;
+}
+
+.image {
+    position: relative;
+    order: 1;
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.paragraph-left{
+    order: 1;
+    width: 50%;
+    margin-right: 20px;
+    text-align: left;
+}
+
+.paragraph-right{
+    width: 50%;
+}
+
+/*top image design*/
  .hero{
     position: relative;
 }
 
+/* top image design*/
 .hero img{
     position: relative;
     display: block;
@@ -172,20 +193,16 @@ section p{
     margin: auto;
 }
 
-.second img{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap-reverse;
-}
-
+/* should be team work picture. May not need this*/
 article img{
     width: 25%;
     height: auto;
     align-items: center;
 }
 
+/*image in Adventure section size*/
 main img{
-    display: block;
+    display: grid;
     padding: 10px;
     width: 25%;
     height: auto;
@@ -194,6 +211,7 @@ main img{
 
 }
 
+/* logo image design*/
  header img{
      width: 150px;
      height: auto;
@@ -202,7 +220,8 @@ main img{
      box-shadow: 10px 10px 10px 10px var(--shadow-color);
      float: right;
  }
- 
+
+ /* border bottom under logo and links*/
  header {
 	margin: 1rem auto;
 	display: grid;
@@ -215,6 +234,7 @@ main img{
     border-bottom: 2px solid black;
 }
 
+/* links at the top of the page layout design*/
 ul{
     display: flex;
     justify-content: space-evenly;
@@ -233,7 +253,7 @@ ul{
     text-align: center;
     float: right;
 }
- 
+ /* no white space at the very top*/
  header, .grid, footer{
      display: grid;
      align-items: center;
