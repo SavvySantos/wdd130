@@ -74,7 +74,7 @@ h2{
     display: block;
     display: grid;
     font-weight: bold;
-    font-family: var(--sub-font-size);
+    font-size: var(--sub-font-size);
     font-size: xx-large;
     text-align: center;
 }
@@ -85,7 +85,6 @@ p{
     font-size: var(--text-font-size);
     font-family: "Dosis", sans-serif;
     max-width: 800px;
-    max-height: auto;
 }
 
 h3{
@@ -98,7 +97,7 @@ h3{
     display: block;
     display: grid;
     font-weight: bold;
-    font-family: var(--sub-font-size);
+    font-size: var(--sub-font-size);
     font-size: xx-large;
     text-align: center;
 }
@@ -128,7 +127,6 @@ nav{
     font-size: var(--text-font-size);
     font-family: "Dosis", sans-serif;
     max-width: 800px;
-    max-height: auto;
 }
 
 .second section{
