@@ -28,6 +28,10 @@ main{
     text-align: left;
 }
 
+#main{
+    display: flex;
+}
+
 h1{
     margin: 0 auto;
     display: grid;
@@ -108,6 +112,7 @@ nav{
 }
  
  nav a{
+     position: relative;
      color: var(--color);
      display: block;
      padding: 0.5rem;
@@ -116,7 +121,8 @@ nav{
      font-weight: 700;
  }
  
- section p{
+ .first section{
+    display: grid;
     position: relative;
     padding: 1rem;
     font-size: var(--text-font-size);
@@ -125,11 +131,26 @@ nav{
     max-height: auto;
 }
 
+.second section{
+    position: relative;
+    padding: 1;
+}
+
 section{
+    position: relative;
+    display: flex;
+    display: block;
     border: solid black;
+    content: "";
+}
+
+.fix {
+    content: "";
+    clear: both;
 }
 
 section p{
+    display: block;
     display: flex;
     width: 20rem;
     margin: 1rem;
@@ -143,13 +164,24 @@ section p{
     position: relative;
 }
 
+.hero img{
+    position: absolute;
+    display: block;
+    padding: 10px;
+    width: 25%;
+    height: auto;
+    align-items: center;
+    margin: auto;
+}
+
 article img{
     width: 25%;
     height: auto;
     align-items: center;
 }
 
-main img{
+.first img{
+    position: relative;
     display: block;
     padding: 10px;
     width: 25%;
