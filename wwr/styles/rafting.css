@@ -74,7 +74,7 @@ h2{
     display: block;
     display: grid;
     font-weight: bold;
-    font-size: var(--sub-font-size);
+    font-family: var(--sub-font-size);
     font-size: xx-large;
     text-align: center;
 }
@@ -85,6 +85,7 @@ p{
     font-size: var(--text-font-size);
     font-family: "Dosis", sans-serif;
     max-width: 800px;
+    max-height: auto;
 }
 
 h3{
@@ -97,7 +98,7 @@ h3{
     display: block;
     display: grid;
     font-weight: bold;
-    font-size: var(--sub-font-size);
+    font-family: var(--sub-font-size);
     font-size: xx-large;
     text-align: center;
 }
@@ -111,7 +112,6 @@ nav{
 }
  
  nav a{
-     position: relative;
      color: var(--color);
      display: block;
      padding: 0.5rem;
@@ -121,12 +121,12 @@ nav{
  }
  
  .first section{
-    display: grid;
     position: relative;
     padding: 1rem;
     font-size: var(--text-font-size);
     font-family: "Dosis", sans-serif;
     max-width: 800px;
+    max-height: auto;
 }
 
 .second section{
@@ -163,7 +163,7 @@ section p{
 }
 
 .hero img{
-    position: absolute;
+    position: relative;
     display: block;
     padding: 10px;
     width: 25%;
@@ -172,14 +172,19 @@ section p{
     margin: auto;
 }
 
+.second img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+
 article img{
     width: 25%;
     height: auto;
     align-items: center;
 }
 
-.first img{
-    position: relative;
+main img{
     display: block;
     padding: 10px;
     width: 25%;
