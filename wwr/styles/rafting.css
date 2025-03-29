@@ -88,7 +88,7 @@ p{
 }
 
 /* Adventure awaits layout placement*/
-h3{
+section h2{
     margin: 0 auto;
     display: grid;
     grid-column: 1 / 5;
