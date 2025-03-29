@@ -263,7 +263,7 @@ main img{
 }
 
 section img{
-    position: flex;
+    display: flex;
     flex-direction: row;
 
 }
