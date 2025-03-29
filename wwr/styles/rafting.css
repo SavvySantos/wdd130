@@ -72,7 +72,6 @@ h2{
     font-weight: bold;
     font-size: var(--sub-font-size);
     text-align: center;
-    ;
 }
 
 /* White Water Rafting description text design*/
@@ -83,6 +82,7 @@ p{
     font-family: "Dosis", sans-serif;
     max-width: 800px;
 }
+
 /* Adventure awaits layout placement*/
 h3{
     margin: 0 auto;
@@ -98,10 +98,37 @@ h3{
     text-align: center;
 }
 
-h3 img{
+
+figure {
+    margin: 0 auto;
+    display: grid;
+    grid-column: 1 / 5;
+    border: solid black;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding: 5px;
+    max-width: 350px;
+    margin: auto;
+}
+
+.images {
     display: flex;
     flex-direction: row;
+    width: 100%;
 }
+
+img {
+    max-width: 220px;
+    max-height: 150px;
+  }
+  
+  figcaption {
+    padding: 0;
+    text-align: center;
+  }
+  
+
 /*Navigation layout design*/ 
 nav{
     background-color: var(--primary-color);
@@ -122,15 +149,10 @@ nav{
      font-weight: 700;
  }
 
-/*.second section{
+.second section{
     position: relative;
     padding: 1px;
 }
-
-/*.fix {
-    content: "";
-    clear: both;
-}*/
 
 .container{
     width: 100%;
