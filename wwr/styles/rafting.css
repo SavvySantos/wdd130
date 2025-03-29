@@ -113,8 +113,9 @@ nav{
  
 /* navigation bar color design*/
  nav a{
+    position: relative;
      color: var(--color);
-     display: block;
+     display: flex;
      padding: 0.5rem;
      text-decoration: none;
      font-size: 1.2rem;
@@ -219,7 +220,6 @@ main img{
      border: 1px solid var(--border-color);
      padding: 2px;
      box-shadow: 10px 10px 10px 10px var(--shadow-color);
-     float: right;
  }
 
  /* border bottom under logo and links*/
@@ -235,6 +235,11 @@ main img{
     border-bottom: 2px solid black;
 }
 
+section img{
+    position: flex;
+    flex-direction: row;
+
+}
 /* links at the top of the page layout design*/
 ul{
     display: flex;
@@ -277,5 +282,20 @@ ul{
 nav a img{
     width: 25px;
     height: auto;
+}
+
+footer{
+    position: relative;
+    text-align: center;
+}
+
+.sociallinks{
+    display: flex;
+    justify-content: end;
+    width: 150px;
+    padding: 10px;
+    width: 100%;
+    height: 50px;
     float: right;
 }
+
