@@ -41,6 +41,10 @@ h1{
     text-align: center;
 }
 
+.team{
+    border: solid black;
+}
+
 /* White water Rafting layout design*/
 div {
 	margin: 1rem auto;
@@ -171,6 +175,7 @@ h2{
     align-self: center;
 }
 
+/*history image placement in the middle of 2 paragraphs*/
 .image {
     position: relative;
     order: 1;
