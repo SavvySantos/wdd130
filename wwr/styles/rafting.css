@@ -102,18 +102,23 @@ section h2{
     text-align: center;
 }
 
-
 figure {
     margin: 0 auto;
     display: grid;
     grid-column: 1 / 5;
-    border: solid black;
-    display: flex;
-    flex-flow: row;
     justify-content: space-between;
     padding: 5px;
     max-width: 350px;
     margin: auto;
+}
+
+figcaption{
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;    
+    width: 150px;
+    height: auto;
 }
 
 .images {
@@ -121,17 +126,6 @@ figure {
     flex-direction: row;
     width: 100%;
 }
-
-img {
-    max-width: 220px;
-    max-height: 150px;
-  }
-  
-  figcaption {
-    padding: 0;
-    text-align: center;
-  }
-  
 
 /*Navigation layout design*/ 
 nav{
@@ -161,9 +155,10 @@ nav{
 .container{
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     border: solid black;
+    font-size: small;
 }
 
 h2{
@@ -265,8 +260,8 @@ main img{
 section img{
     display: flex;
     flex-direction: row;
-
 }
+
 /* links at the top of the page layout design*/
 ul{
     display: flex;
@@ -314,6 +309,12 @@ nav a img{
 footer{
     position: relative;
     text-align: center;
+    margin: 0 auto; /* 0 auto aligns it in the center with the box*/
+    padding: .5rem;
+    width: 850px;
+    font-size: .8em;
+    color: gray;
+    border-top: 1px solid #ccc;
 }
 
 .sociallinks{
@@ -326,3 +327,126 @@ footer{
     float: right;
 }
 
+body {
+    font-family: Winky Sans, sans-serif;
+    font-size: 1em;
+    color: black;
+    background-color: white;
+}
+
+header{
+    margin: 1rem auto;
+    width: 850px;
+}
+
+h3{
+    text-align: center;
+    color: var(--accent1-color);
+}
+
+.map{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    height: auto
+}
+
+.contact{
+    display: grid;
+    margin: 3rem ;
+    border: solid black;
+    padding: 1rem 1.5rem;
+    text-align: left;
+    color: black;
+}
+
+figure img{
+    width: 150px;
+}
+
+figure figcaption{
+    display: grid;
+}
+
+form{
+    width: 100%;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border: 3px solid black;
+    border-radius: 0.5rem; /* this is to round out the corners of the border*/
+    background-color: aqua;
+    display: grid;
+}
+
+fieldset{
+    display: grid; /* just by typing this line, it spaces my form evenly in one column*/
+    grid-gap: .25rem;
+    margin: .25rem;
+    border: 1.5px solid gray;
+}
+
+legend{/* for "contact information" and "questions*/
+padding: 0.5rem;
+color: var(--accent1-color);
+font-size: 1.5rem; 
+font-weight: bold;
+}
+
+label, input, button, select, textarea{
+    font-family: Work Sans, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+label{
+    text-align: left;
+    padding-right: 1rem;
+}
+
+input, select, textarea{
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"]{
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button{
+    margin: 1rem;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: .25rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+botton:hover{
+    background-color:var(--accent2-color);
+}
+
+footer{
+    margin: 0 auto; /* 0 auto aligns it in the center with the box*/
+    padding: .5rem;
+    width: 850px;
+    text-align: center;
+    font-size: .8em;
+    color: gray;
+    border-top: 1px solid #ccc;
+}
+
+.form-item{
+    display: grid;
+    align-items: center;
+}
+
+.column1{
+    grid-template-columns: 3fr, 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2{
+    grid-template-columns: 1fr, 2fr;
+}

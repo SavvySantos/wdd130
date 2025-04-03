@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Winky Sans, sans-serif;
+    font-size: 1em;
+    color: black;
+    background-color: white;
+}
+/*not needed in rafting.css*/
+header{
+    margin: 1rem auto;
+    width: 850px;
+}
+
+/*not needed in rafting.css*/
+h1{
+    margin: 2rem;
+    font-size: 2em;
+    color: gray;
+    text-align: center;
+}
+
+form{
+    width: 850px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    border: 3px solid black;
+    border-radius: 0.5rem; /* this is to round out the corners of the border*/
+    background-color: aqua;
+    display: grid;
+}
+
+fieldset{
+    display: grid; /* just by typing this line, it spaces my form evenly in one column*/
+    grid-gap: .45rem;
+    margin: .25rem;
+    border: 1.5px solid gray;
+}
+
+legend{/* for "contact information" and "questions*/
+padding: 0.5rem;
+color: green;
+font-size: 1.5rem; 
+font-weight: bold;
+}
+
+label, input, button, select, textarea{
+    font-family: Work Sans, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+label{
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input, select, textarea{
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"]{
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button{
+    margin: 1rem;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: .25rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+botton:hover{
+    background-color: green;
+}
+
+footer{
+    margin: 0 auto; /* 0 auto aligns it in the center with the box*/
+    padding: .5rem;
+    width: 850px;
+    text-align: center;
+    font-size: .8em;
+    color: gray;
+    border-top: 1px solid #ccc;
+}
+
+.form-item{
+    display: grid;
+    align-items: center;
+}
+
+.column1{
+    grid-template-columns: 3fr, 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2{
+    grid-template-columns: 1fr, 2fr;
+}
