@@ -44,11 +44,7 @@ h1{
     font-family: var(--text-font);
     font-size: xx-large;
     text-align: center;
-        color: color-contrast(var(--background-color)) vs
-        var(--primary-color)
-        var(--secondary-color)
-        var(--accent1-color)
-        var(--accent2-color)
+    color: black;
 }
 
 /* White water Rafting layout design*/
@@ -82,11 +78,7 @@ h2{
     font-weight: bold;
     font-size: var(--sub-font-size);
     text-align: center;
-    color: color-contrast(var(--background-color)) vs
-        var(--primary-color)
-        var(--secondary-color)
-        var(--accent1-color)
-        var(--accent2-color);
+    color: black;
 }
 
 /* White Water Rafting description text design*/
@@ -112,11 +104,7 @@ section h2{
     font-weight: bold;
     font-size: xx-large;
     text-align: center;
-    color: color-contrast(var(--background-color)) vs
-        var(--primary-color)
-        var(--secondary-color)
-        var(--accent1-color)
-        var(--accent2-color)
+    color: black;
 }
 
 figure {
@@ -340,11 +328,7 @@ footer{
     width: 850px;
     font-size: .8em;
     border-top: 1px solid #ccc;
-    color: color-contrast(var(--background-color)) vs
-        var(--primary-color)
-        var(--secondary-color)
-        var(--accent1-color)
-        var(--accent2-color)
+    color: black;
 }
 
 .sociallinks{
@@ -370,11 +354,7 @@ header{
 
 h3{
     text-align: center;
-    color: color-contrast(var(--background-color)) vs
-        var(--primary-color)
-        var(--secondary-color)
-        var(--accent1-color)
-        var(--accent2-color)
+    color: black;
 }
 
 .map{
@@ -419,11 +399,7 @@ fieldset{
 
 legend{/* for "contact information" and "questions*/
 padding: 0.5rem;
-color: color-contrast(var(--background-color)) vs
-    var(--primary-color)
-    var(--secondary-color)
-    var(--accent1-color)
-    var(--accent2-color);
+color: black;
 font-size: 1.5rem; 
 font-weight: bold;
 }
