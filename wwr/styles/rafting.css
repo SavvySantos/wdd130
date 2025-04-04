@@ -10,7 +10,7 @@
     --accent1-color: #E68B4E;
     --accent2-color: #94D1BE;
     --font-color: black;
-    -font: "https://fonts.googleapis.com/css2?family=Boldonse:ital,wght@0,300..900;1,300..900&family=dosis:ital,wght@0,100..900;1,100..900&family=Boldonse:ital,wght@0,300..900;1,300..900&display=swap";
+    --font: "https://fonts.googleapis.com/css2?family=Boldonse:ital,wght@0,300..900;1,300..900&family=dosis:ital,wght@0,100..900;1,100..900&family=Boldonse:ital,wght@0,300..900;1,300..900&display=swap";
     --name-font-size: 5rem;
     --sub-font-size: 2rem;
     --text-font-size: 1rem;
@@ -40,7 +40,7 @@ h1{
     color: black;
     padding: 10px;
     font-weight: bold;
-    font-family: var(--text-font);
+    font-family: var(--font);
     font-size: xx-large;
     text-align: center;
     color: black;
