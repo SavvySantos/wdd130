@@ -145,7 +145,7 @@ nav{
 /* navigation bar color design*/
  nav a{
     position: relative;
-     color: var(--color);
+     color: black;
      display: flex;
      padding: 0.5rem;
      text-decoration: none;
