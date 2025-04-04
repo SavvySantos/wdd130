@@ -281,6 +281,7 @@ ul{
     text-align: center;
     float: right;
 }
+
  /* no white space at the very top*/
  header, .grid, footer{
      display: grid;
@@ -319,7 +320,6 @@ footer{
 
 .sociallinks{
     display: flex;
-    justify-content: end;
     width: 150px;
     padding: 10px;
     width: 100%;
@@ -413,7 +413,7 @@ input[type="checkbox"]{
     vertical-align: bottom;
 }
 
-button{
+button[type=submit]{
     margin: 1rem;
     background: black;
     color: white;
@@ -443,7 +443,6 @@ footer{
 }
 
 .column1{
-    grid-template-columns: 3fr 1fr;
     margin: 0.5rem 0;
 }
 
