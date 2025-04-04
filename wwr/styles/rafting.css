@@ -16,6 +16,13 @@
     --sub-font-size: 2rem;
     --text-font-size: 1rem;
 }
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
  /* positioning for the History section*/
 main{
     grid-column: 2/3;
@@ -33,16 +40,15 @@ h1{
     position: relative;
     color: black;
     padding: 10px;
-    display: block;
-    display: grid;
     font-weight: bold;
     font-family: var(--text-font);
     font-size: xx-large;
     text-align: center;
-}
-
-.team{
-    border: solid black;
+        color: color-contrast(var(--background-color)) vs
+        var(--primary-color)
+        var(--secondary-color)
+        var(--accent1-color)
+        var(--accent2-color)
 }
 
 /* White water Rafting layout design*/
@@ -76,6 +82,11 @@ h2{
     font-weight: bold;
     font-size: var(--sub-font-size);
     text-align: center;
+    color: color-contrast(var(--background-color)) vs
+        var(--primary-color)
+        var(--secondary-color)
+        var(--accent1-color)
+        var(--accent2-color);
 }
 
 /* White Water Rafting description text design*/
@@ -85,6 +96,7 @@ p{
     font-size: var(--text-font-size);
     font-family: "Dosis", sans-serif;
     max-width: 800px;
+
 }
 
 /* Adventure awaits layout placement*/
@@ -100,6 +112,11 @@ section h2{
     font-weight: bold;
     font-size: xx-large;
     text-align: center;
+    color: color-contrast(var(--background-color)) vs
+        var(--primary-color)
+        var(--secondary-color)
+        var(--accent1-color)
+        var(--accent2-color)
 }
 
 figure {
@@ -134,6 +151,7 @@ nav{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    color: black;
 }
  
 /* navigation bar color design*/
@@ -161,14 +179,19 @@ nav{
     font-size: small;
 }
 
-h2{
+/*h2{
     display: flex;
     flex-direction: column;
     position: relative;
     margin: 0;
     padding: 0;
-    align-self: center;
-}
+    align-self: flex-start;
+    color: color-contrast(var(--background-color)) vs
+        var(--primary-color)
+        var(--secondary-color)
+        var(--accent1-color)
+        var(--accent2-color)
+}*/
 
 /*history image placement in the middle of 2 paragraphs*/
 .image {
@@ -290,6 +313,8 @@ ul{
      margin: 0 auto;
      border-top: var(--border-color);
      text-align: left;
+    background-color: var(--primary-color);
+
  }
 
  
@@ -314,8 +339,12 @@ footer{
     padding: .5rem;
     width: 850px;
     font-size: .8em;
-    color: gray;
     border-top: 1px solid #ccc;
+    color: color-contrast(var(--background-color)) vs
+        var(--primary-color)
+        var(--secondary-color)
+        var(--accent1-color)
+        var(--accent2-color)
 }
 
 .sociallinks{
@@ -325,7 +354,7 @@ footer{
     width: 100%;
     height: 50px;
     float: right;
-}
+    }
 
 body {
     font-family: Winky Sans, sans-serif;
@@ -341,7 +370,11 @@ header{
 
 h3{
     text-align: center;
-    color: var(--accent1-color);
+    color: color-contrast(var(--background-color)) vs
+        var(--primary-color)
+        var(--secondary-color)
+        var(--accent1-color)
+        var(--accent2-color)
 }
 
 .map{
@@ -386,7 +419,11 @@ fieldset{
 
 legend{/* for "contact information" and "questions*/
 padding: 0.5rem;
-color: var(--accent1-color);
+color: color-contrast(var(--background-color)) vs
+    var(--primary-color)
+    var(--secondary-color)
+    var(--accent1-color)
+    var(--accent2-color);
 font-size: 1.5rem; 
 font-weight: bold;
 }
