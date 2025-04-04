@@ -250,9 +250,8 @@ main img{
  header img{
      width: 150px;
      height: auto;
-     border: 1px solid var(--border-color);
+     border: 1px solid black;
      padding: 2px;
-     box-shadow: 10px 10px 10px 10px var(--shadow-color);
  }
 
  /* border bottom under logo and links*/
@@ -299,7 +298,7 @@ ul{
      align-items: center;
      max-width: 840px;
      margin: 0 auto;
-     border-top: var(--border-color);
+     border-top: solid black;
      text-align: left;
     background-color: var(--primary-color);
 
@@ -307,12 +306,7 @@ ul{
 
  
  /*Class Selectors*/
- .box{
-     margin: 1rem;
-     border: 1px solid var(--border-color);
-     padding: 1rem;
-     background-color: var(--background-color);
- }
+
 
 /* this next one was to change the sizes of the social  media icons */
 nav a img{
