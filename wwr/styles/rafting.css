@@ -89,9 +89,10 @@ aside h2{
 }
 
 .box{
-    margin: 1rem;
+    margin: 5rem;
     border: 1px solid black;
-    padding: 1rem;
+    padding: 5rem;
+    width: 850px;
 }
 
 aside img{
@@ -149,7 +150,7 @@ section h2{
 article h2{
     grid-column: 2/3;
     margin: 1rem;
-    padding: 10px;
+    padding: 5px;
 }
 
 aside{
@@ -261,6 +262,8 @@ figure img{
 }
 
 article{
+    margin: 20px;
+    padding: 10px;
     border: 2px solid black;
 }
 
@@ -350,10 +353,12 @@ ul{
     background-color: var(--primary-color);
 
  }
-
  
- /*Class Selectors*/
-
+ .subscribe{
+    display: grid;
+    display: flex;
+    grid-column: 2/3;
+ }
 
 /* this next one was to change the sizes of the social  media icons */
 nav a img{
