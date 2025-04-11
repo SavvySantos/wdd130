@@ -69,7 +69,7 @@ aside{
     grid-column: 1/2;
     grid-row: 1/2;
 }
-
+/*placement of "Utah" on the arch*/
 aside h2{
     position: absolute;
     top: 20px;
