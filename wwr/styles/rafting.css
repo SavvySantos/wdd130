@@ -478,6 +478,19 @@ button[type=submit]{
     font-size: 1.2rem;
 }
 
+button[type=contact-us]{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: .25rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    list-style-type: none;
+}
+
 botton:hover{
     background-color:var(--accent2-color);
 }
@@ -503,4 +516,35 @@ footer{
 
 .column2{
     grid-template-columns: 1fr 2fr;
+}
+
+.fishing{
+    display: grid;
+    display: flex;
+    grid-column: 2/3;
+}
+
+.trips{
+    padding: 5px;
+    margin: 0 auto;
+    border: solid black;
+}
+
+.scenery{
+    display: grid;
+    display: flex;
+    grid-column: 2/3;
+}
+
+.kayaking{
+    display: grid;
+    display: flex;
+    grid-column: 2/3;
+}
+
+.contact{
+    font-size: 2rem;
+    display: block;
+    margin: 25px;
+
 }
