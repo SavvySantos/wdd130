@@ -73,10 +73,8 @@ div img{
 aside{
     width: 20rem;
     margin: 1rem;
-    border: 1px solid var(--border-color);/* why use rgba instead of hex here */
+    border: 1px solid black;/* why use rgba instead of hex here */
     padding: 1rem;
-    background-color: var(--background-color);
-    color: var(--shadow-color);
     text-align: center;
     position: relative;
     grid-column: 1/2;
@@ -156,10 +154,8 @@ article h2{
 aside{
     width: 20rem;
     margin: 1rem;
-    border: 1px solid var(--border-color);/* why use rgba instead of hex here */
+    border: 1px solid black;/* why use rgba instead of hex here */
     padding: 1rem;
-    background-color: var(--background-color);
-    color: var(--shadow-color);
     text-align: center;
     position: relative;
     grid-column: 1/2;
